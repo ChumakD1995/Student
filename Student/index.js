@@ -73,10 +73,10 @@ console.log("Average Grade:", student2.getAverageGrade());
 console.log("Summary:", student2.summary()); 
 
 const student3 = new Student("Bogdan", "Schkapich", 1994);
-student2.grades = [70, 83, 81, 89, 93];
-student2.present();
-student2.absent();
-student2.absent();
+student3.grades = [90, 90, 90, 90, 90];
+student3.present();
+student3.present();
+student3.absent();
 
 console.log("Age:", student3.getAge());
 console.log("Average Grade:", student3.getAverageGrade());
